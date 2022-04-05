@@ -15,15 +15,13 @@ This service has been tested on MAC and linux OS.
 [You can download or clone the repository here](https://github.com/teesamuel/ServiceMonitoringApplication.git).
 
 
-- Edit the file by passing the appropriate commant and application port
+- Edit the file by passing the appropriate command and application port
 
 - `run crontab -e` 
 
 - pass the file to crontab and save your editor
 
-For example, to run the service every 5 minutes you can set it up like this
-
-Command to execute a cron after every 5 minutes assuming my projedct reside in directory (/scripts/ServiceMonitoringApplication/) .	
+For example, to run the service every 5 minutes assuming my projedct reside in directory (/scripts/ServiceMonitoringApplication/) .	
 
 `*/5* * * * *  /usr/bin/python /scripts/ServiceMonitoringApplication/ServiceMonitor.py`
 
